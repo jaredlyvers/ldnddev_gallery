@@ -1,0 +1,19 @@
+uuid: 2ae3a473-b4c3-409b-bf50-6f37bdc60124
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_gallery_caption
+    - paragraphs.paragraphs_type.ldnddev_gallery_video
+id: paragraph.ldnddev_gallery_video.field_ldnddev_gallery_caption
+field_name: field_ldnddev_gallery_caption
+entity_type: paragraph
+bundle: ldnddev_gallery_video
+label: 'ldnddev Gallery Caption'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

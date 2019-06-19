@@ -1,0 +1,15 @@
+ldnddev_gallery:
+  css:
+    component:
+      assets/css/ldnddev_gallery.css:
+        minified: false
+      assets/css/colorbox.css:
+        minified: false
+  js:
+    assets/js/ldnddev_gallery.js:
+      minified: false
+    assets/js/jquery.colorbox-min.js:
+      minified: true
+  dependencies:
+    - core/jquery
+    - core/drupal

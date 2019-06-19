@@ -1,0 +1,9 @@
+uuid: 069955e8-13b8-454e-ae42-9b4b869f7364
+langcode: en
+status: true
+dependencies: {  }
+id: ldnddev_gallery_video
+label: 'ldnddev Gallery Video'
+icon_uuid: null
+description: 'This bundle is used to add a Video to the Gallery bundle.'
+behavior_plugins: {  }

@@ -1,0 +1,57 @@
+uuid: 072ac7ac-7a5d-4235-82da-9b5979893585
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_gallery_item
+    - paragraphs.paragraphs_type.ldnddev_gallery
+    - paragraphs.paragraphs_type.ldnddev_gallery_image
+    - paragraphs.paragraphs_type.ldnddev_gallery_video
+  module:
+    - entity_reference_revisions
+id: paragraph.ldnddev_gallery.field_ldnddev_gallery_item
+field_name: field_ldnddev_gallery_item
+entity_type: paragraph
+bundle: ldnddev_gallery
+label: 'ldnddev Gallery Item'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      ldnddev_gallery_image: ldnddev_gallery_image
+      ldnddev_gallery_video: ldnddev_gallery_video
+    target_bundles_drag_drop:
+      ldnddev_gallery:
+        weight: 10
+        enabled: false
+      ldnddev_gallery_image:
+        enabled: true
+        weight: 11
+      ldnddev_gallery_video:
+        enabled: true
+        weight: 12
+      ldnddev_hero:
+        weight: 13
+        enabled: false
+      ldnddev_hero_image:
+        weight: 14
+        enabled: false
+      ldnddev_hero_video:
+        weight: 15
+        enabled: false
+      ldnddev_slider:
+        weight: 16
+        enabled: false
+      ldnddev_slider_image:
+        weight: 17
+        enabled: false
+      ldnddev_slider_video:
+        weight: 18
+        enabled: false
+field_type: entity_reference_revisions

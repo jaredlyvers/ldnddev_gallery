@@ -1,0 +1,19 @@
+uuid: b61bae8a-5a6d-4e60-9d77-88d2e1950ced
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_gallery_css
+    - paragraphs.paragraphs_type.ldnddev_gallery
+id: paragraph.ldnddev_gallery.field_ldnddev_gallery_css
+field_name: field_ldnddev_gallery_css
+entity_type: paragraph
+bundle: ldnddev_gallery
+label: 'ldnddev Gallery Custom CSS'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

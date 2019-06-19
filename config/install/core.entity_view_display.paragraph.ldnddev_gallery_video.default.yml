@@ -1,0 +1,31 @@
+uuid: f1794f17-6c78-4a78-921d-00a7909cce6b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ldnddev_gallery_video.field_ldnddev_gallery_caption
+    - field.field.paragraph.ldnddev_gallery_video.field_ldnddev_gallery_video
+    - paragraphs.paragraphs_type.ldnddev_gallery_video
+id: paragraph.ldnddev_gallery_video.default
+targetEntityType: paragraph
+bundle: ldnddev_gallery_video
+mode: default
+content:
+  field_ldnddev_gallery_caption:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_ldnddev_gallery_video:
+    type: entity_reference_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+hidden: {  }

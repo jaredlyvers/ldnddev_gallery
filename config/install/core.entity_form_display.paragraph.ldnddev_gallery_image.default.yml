@@ -1,0 +1,35 @@
+uuid: 2f6bd515-ed6c-430d-9146-b67fe2f72c0f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ldnddev_gallery_image.field_ldnddev_gallery_caption
+    - field.field.paragraph.ldnddev_gallery_image.field_ldnddev_gallery_image
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.ldnddev_gallery_image
+  module:
+    - image
+id: paragraph.ldnddev_gallery_image.default
+targetEntityType: paragraph
+bundle: ldnddev_gallery_image
+mode: default
+content:
+  field_ldnddev_gallery_caption:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_ldnddev_gallery_image:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+hidden:
+  created: true
+  status: true

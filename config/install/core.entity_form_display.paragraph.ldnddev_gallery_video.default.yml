@@ -1,0 +1,32 @@
+uuid: 71621bf0-7540-4507-976d-aebc7356b7d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ldnddev_gallery_video.field_ldnddev_gallery_caption
+    - field.field.paragraph.ldnddev_gallery_video.field_ldnddev_gallery_video
+    - paragraphs.paragraphs_type.ldnddev_gallery_video
+  module:
+    - media_library
+id: paragraph.ldnddev_gallery_video.default
+targetEntityType: paragraph
+bundle: ldnddev_gallery_video
+mode: default
+content:
+  field_ldnddev_gallery_caption:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_ldnddev_gallery_video:
+    type: media_library_widget
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true

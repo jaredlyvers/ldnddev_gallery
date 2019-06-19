@@ -1,0 +1,13 @@
+{% if content.field_ldnddev_gallery_image.0 %}
+    {% set img_url = file_url(content.field_ldnddev_gallery_image['#items'].entity.uri.value) %}
+{% endif %}
+<div class="ldnddev-gallery__item">
+    <div class="ldnddev-gallery__image">
+        <a href="{{ img_url }}" class="gallery-colorbox" title="{{ content.field_ldnddev_gallery_caption.0|render|trim }}">
+            {{ content.field_ldnddev_gallery_image }}
+        </a>
+    </div>
+    <div class="ldnddev-gallery__caption">
+        {{ content.field_ldnddev_gallery_caption }}
+    </div>
+</div>

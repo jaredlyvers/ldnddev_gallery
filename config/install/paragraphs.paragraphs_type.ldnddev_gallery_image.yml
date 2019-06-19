@@ -1,0 +1,9 @@
+uuid: e89111a6-9478-4569-a039-6eaa130a53d8
+langcode: en
+status: true
+dependencies: {  }
+id: ldnddev_gallery_image
+label: 'ldnddev Gallery Image'
+icon_uuid: null
+description: 'This bundle is used to add an Image to the Gallery bundle.'
+behavior_plugins: {  }

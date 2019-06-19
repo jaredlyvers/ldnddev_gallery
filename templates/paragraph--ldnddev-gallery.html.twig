@@ -1,0 +1,19 @@
+{{ attach_library('ldnddev_gallery/ldnddev_gallery') }}
+{% 
+    set classes=[
+        'ldnddev-gallery'
+    ]
+%}
+
+{% if content.field_ldnddev_gallery_css.0 %}
+    {% set classes = classes|merge([content.field_ldnddev_gallery_css.0|render|clean_class]) %}
+{% endif %}
+{% if content.field_ldnddev_gallery_grid.0 %}
+    {% set classes = classes|merge([content.field_ldnddev_gallery_grid.0|render]) %}
+{% endif %}
+
+<div {{ attributes.addClass(classes) }}>
+    <div class="ldnddev-gallery__items">
+        {{ content.field_ldnddev_gallery_item }}
+    </div>
+</div>

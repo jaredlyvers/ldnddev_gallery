@@ -1,0 +1,42 @@
+uuid: c5d878ed-3509-498d-a989-d66450e7ae7f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ldnddev_gallery.field_ldnddev_gallery_css
+    - field.field.paragraph.ldnddev_gallery.field_ldnddev_gallery_grid
+    - field.field.paragraph.ldnddev_gallery.field_ldnddev_gallery_item
+    - paragraphs.paragraphs_type.ldnddev_gallery
+  module:
+    - entity_reference_revisions
+    - options
+id: paragraph.ldnddev_gallery.default
+targetEntityType: paragraph
+bundle: ldnddev_gallery
+mode: default
+content:
+  field_ldnddev_gallery_css:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_ldnddev_gallery_grid:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_ldnddev_gallery_item:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }
