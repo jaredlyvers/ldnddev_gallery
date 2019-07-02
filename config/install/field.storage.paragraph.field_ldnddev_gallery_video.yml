@@ -5,6 +5,8 @@ dependencies:
   module:
     - media
     - paragraphs
+_core:
+  default_config_hash: iGRHJ0umo7icej0kvPua3feejFm9mb1UO2fSbZjWRxk
 id: paragraph.field_ldnddev_gallery_video
 field_name: field_ldnddev_gallery_video
 entity_type: paragraph

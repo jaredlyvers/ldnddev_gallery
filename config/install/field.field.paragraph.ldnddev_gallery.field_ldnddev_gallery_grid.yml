@@ -7,11 +7,13 @@ dependencies:
     - paragraphs.paragraphs_type.ldnddev_gallery
   module:
     - options
+_core:
+  default_config_hash: E_KzKuY7d1_6T_i6tFf2Ke2u1Q28dl8PAhjdJByNboQ
 id: paragraph.ldnddev_gallery.field_ldnddev_gallery_grid
 field_name: field_ldnddev_gallery_grid
 entity_type: paragraph
 bundle: ldnddev_gallery
-label: 'ldnddev Gallery Grid'
+label: 'Gallery Grid Layout'
 description: 'The grid options allow you to choose how many items will be in each row.'
 required: true
 translatable: false

@@ -7,11 +7,13 @@ dependencies:
     - paragraphs.paragraphs_type.ldnddev_gallery_image
   module:
     - image
+_core:
+  default_config_hash: RgqvTut37dtrPCyg-pd8ZirPxTMyzDfZFK6To51qPj4
 id: paragraph.ldnddev_gallery_image.field_ldnddev_gallery_image
 field_name: field_ldnddev_gallery_image
 entity_type: paragraph
 bundle: ldnddev_gallery_image
-label: 'ldnddev Gallery Image'
+label: 'Gallery Image'
 description: ''
 required: false
 translatable: false

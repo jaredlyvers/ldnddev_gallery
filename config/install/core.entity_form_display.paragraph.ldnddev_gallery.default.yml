@@ -9,13 +9,15 @@ dependencies:
     - paragraphs.paragraphs_type.ldnddev_gallery
   module:
     - paragraphs
+_core:
+  default_config_hash: AWXz9W8rLxPUho-m-KLmzPunQ7MDryrDIEReJonHAfw
 id: paragraph.ldnddev_gallery.default
 targetEntityType: paragraph
 bundle: ldnddev_gallery
 mode: default
 content:
   field_ldnddev_gallery_css:
-    weight: 0
+    weight: 1
     settings:
       size: 60
       placeholder: ''
@@ -23,21 +25,28 @@ content:
     type: string_textfield
     region: content
   field_ldnddev_gallery_grid:
-    weight: 1
+    weight: 2
     settings: {  }
     third_party_settings: {  }
     type: options_select
     region: content
   field_ldnddev_gallery_item:
-    type: entity_reference_paragraphs
-    weight: 2
+    type: paragraphs
+    weight: 0
     settings:
-      title: Paragraph
-      title_plural: Paragraphs
-      edit_mode: open
-      add_mode: dropdown
+      title: 'Gallery Item'
+      title_plural: 'Gallery Items'
+      edit_mode: closed
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: button
       form_display_mode: default
-      default_paragraph_type: ''
+      default_paragraph_type: _none
+      features:
+        duplicate: duplicate
+        collapse_edit_all: collapse_edit_all
+        add_above: '0'
     third_party_settings: {  }
     region: content
 hidden:

@@ -10,6 +10,8 @@ dependencies:
   module:
     - entity_reference_revisions
     - options
+_core:
+  default_config_hash: w30m8-7aEMICc2Z8z10oWLuYloVjmTMRu0lysnw23dQ
 id: paragraph.ldnddev_gallery.default
 targetEntityType: paragraph
 bundle: ldnddev_gallery
@@ -28,7 +30,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: list_default
+    type: list_key
     region: content
   field_ldnddev_gallery_item:
     type: entity_reference_revisions_entity_view

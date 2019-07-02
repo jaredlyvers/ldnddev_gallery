@@ -5,12 +5,14 @@ dependencies:
   config:
     - field.storage.paragraph.field_ldnddev_gallery_css
     - paragraphs.paragraphs_type.ldnddev_gallery
+_core:
+  default_config_hash: Rz4IAD5_QyGo1_aVaV9mN60PDfHXLFq_RY2-lnQ4Lxw
 id: paragraph.ldnddev_gallery.field_ldnddev_gallery_css
 field_name: field_ldnddev_gallery_css
 entity_type: paragraph
 bundle: ldnddev_gallery
-label: 'ldnddev Gallery Custom CSS'
-description: ''
+label: 'Custom CSS Class'
+description: 'Add your own custom CSS class.'
 required: false
 translatable: false
 default_value: {  }

@@ -2,6 +2,8 @@ uuid: e89111a6-9478-4569-a039-6eaa130a53d8
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: nUF-b-qw5109JDq7a2ErVr6Hves8X9mZz8fEyt-hSXQ
 id: ldnddev_gallery_image
 label: 'ldnddev Gallery Image'
 icon_uuid: null

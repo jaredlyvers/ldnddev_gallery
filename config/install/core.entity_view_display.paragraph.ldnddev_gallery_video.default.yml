@@ -6,6 +6,8 @@ dependencies:
     - field.field.paragraph.ldnddev_gallery_video.field_ldnddev_gallery_caption
     - field.field.paragraph.ldnddev_gallery_video.field_ldnddev_gallery_video
     - paragraphs.paragraphs_type.ldnddev_gallery_video
+_core:
+  default_config_hash: E3cXoKAFeo6J4Wswt3jSgD0aJMBENJ5Kvg00PXswcg4
 id: paragraph.ldnddev_gallery_video.default
 targetEntityType: paragraph
 bundle: ldnddev_gallery_video

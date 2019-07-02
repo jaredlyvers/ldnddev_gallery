@@ -9,11 +9,13 @@ dependencies:
     - paragraphs.paragraphs_type.ldnddev_gallery_video
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: zzgtvVKUufCOIVczawn3YQ6O1VIuaoL8STUfcgEasLE
 id: paragraph.ldnddev_gallery.field_ldnddev_gallery_item
 field_name: field_ldnddev_gallery_item
 entity_type: paragraph
 bundle: ldnddev_gallery
-label: 'ldnddev Gallery Item'
+label: 'Gallery Item'
 description: ''
 required: false
 translatable: false
@@ -53,5 +55,38 @@ settings:
         enabled: false
       ldnddev_slider_video:
         weight: 18
+        enabled: false
+      ldnddev_accordion:
+        weight: 21
+        enabled: false
+      ldnddev_accordion_item:
+        weight: 22
+        enabled: false
+      ldnddev_add_a_file:
+        weight: 23
+        enabled: false
+      ldnddev_add_a_link:
+        weight: 24
+        enabled: false
+      ldnddev_card:
+        weight: 25
+        enabled: false
+      ldnddev_card_item:
+        weight: 26
+        enabled: false
+      ldnddev_file_or_link:
+        weight: 27
+        enabled: false
+      ldnddev_milestone:
+        weight: 34
+        enabled: false
+      ldnddev_milestone_item:
+        weight: 35
+        enabled: false
+      ldnddev_rich_text:
+        weight: 36
+        enabled: false
+      ldnddev_section:
+        weight: 37
         enabled: false
 field_type: entity_reference_revisions

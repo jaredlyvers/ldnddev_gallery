@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.ldnddev_gallery_video
   module:
     - media_library
+_core:
+  default_config_hash: vyhY9Ra9oKSoMrv6lFOaUqyqC4mCOstEiFwHbxmxS9U
 id: paragraph.ldnddev_gallery_video.default
 targetEntityType: paragraph
 bundle: ldnddev_gallery_video

@@ -5,11 +5,13 @@ dependencies:
   config:
     - field.storage.paragraph.field_ldnddev_gallery_caption
     - paragraphs.paragraphs_type.ldnddev_gallery_image
+_core:
+  default_config_hash: lC45MFUJRpHmCBhuv9695ggtpj_6GdxDHrbkJl6khNU
 id: paragraph.ldnddev_gallery_image.field_ldnddev_gallery_caption
 field_name: field_ldnddev_gallery_caption
 entity_type: paragraph
 bundle: ldnddev_gallery_image
-label: 'ldnddev Gallery Caption'
+label: 'Gallery Caption'
 description: ''
 required: false
 translatable: true
